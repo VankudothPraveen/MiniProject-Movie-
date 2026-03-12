@@ -1,8 +1,16 @@
 # 🎬 CineVault - Full-Stack Movie Management App
 
-A premium, full-stack Movie CRUD (Create, Read, Update, Delete) application built with **Angular** and **Spring Boot**. The application features an eye-catching, modern, glassmorphic UI with dynamic animations and a robust Java backend.
+A premium, full-stack Movie CRUD (Create, Read, Update, Delete) application built with **Angular** and **Spring Boot**.
 
-![Preview](https://via.placeholder.com/800x400.png?text=CineVault+Premium+UI) *Replace this placeholder with an actual screenshot of your app*
+---
+
+<img width="960" height="449" alt="image" src="https://github.com/user-attachments/assets/bd300ca3-7dc5-4524-914f-7684072a2374" />
+
+---
+
+<img width="960" height="450" alt="image" src="https://github.com/user-attachments/assets/6bfbc93c-03fb-40da-ba48-aa6e087cf6e9" />
+
+---
 
 ## ✨ Features
 
@@ -28,17 +36,6 @@ A premium, full-stack Movie CRUD (Create, Read, Update, Delete) application buil
 
 ---
 
-## 🚀 Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine.
-
-### Prerequisites
-Make sure you have the following installed:
-- [Node.js](https://nodejs.org/) & npm
-- [Angular CLI](https://angular.io/cli)
-- [Java Development Kit (JDK) 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-- [Maven](https://maven.apache.org/)
-- [MySQL Server](https://dev.mysql.com/downloads/mysql/)
 
 ### 1. Database Setup
 1. Open MySQL and create a database named `moviedb`:
