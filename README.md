@@ -1,59 +1,46 @@
-# MovieFrontend
+# 🎬 CineVault - Full-Stack Movie Management App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
+A premium, full-stack Movie CRUD (Create, Read, Update, Delete) application built with **Angular** and **Spring Boot**. The application features an eye-catching, modern, glassmorphic UI with dynamic animations and a robust Java backend.
 
-## Development server
+![Preview](https://via.placeholder.com/800x400.png?text=CineVault+Premium+UI) *Replace this placeholder with an actual screenshot of your app*
 
-To start a local development server, run:
+## ✨ Features
 
-```bash
-ng serve
-```
+- **Full CRUD Capabilities:** Seamlessly add, view, edit, and delete movies.
+- **Modern Cinematic UI:** Dark theme, glassmorphism, dynamic gradients, and smooth hover effects.
+- **Interactive Feedback:** Real-time success toast notifications and inline confirmation safety checks for deletions.
+- **RESTful API:** Robust Java Spring Boot backend handling all data transactions.
+- **Database Integration:** MySQL database configured with Hibernate/JPA.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Technology Stack
 
-## Code scaffolding
+**Frontend:**
+- Angular 
+- TypeScript
+- HTML5 / SCSS (Custom Premium Styling)
+- RxJS
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+**Backend:**
+- Java
+- Spring Boot
+- Spring Data JPA
+- MySQL
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🚀 Getting Started
 
-```bash
-ng generate --help
-```
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-## Building
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) & npm
+- [Angular CLI](https://angular.io/cli)
+- [Java Development Kit (JDK) 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Maven](https://maven.apache.org/)
+- [MySQL Server](https://dev.mysql.com/downloads/mysql/)
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### 1. Database Setup
+1. Open MySQL and create a database named `moviedb`:
+   ```sql
+   CREATE DATABASE moviedb;
